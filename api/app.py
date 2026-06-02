@@ -11,7 +11,6 @@ from monitors.sensu import get_sensu_events
 
 app = Flask(__name__)
 
-
 def get_raw_events() -> List[Dict]:
     events = []
 
